@@ -1,0 +1,11 @@
+# 배포의 편의를 위한 build 파일 커밋
+# dist
+
+node_modules
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables
+.env
