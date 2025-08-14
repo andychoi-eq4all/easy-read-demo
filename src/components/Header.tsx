@@ -25,17 +25,17 @@ const Header: React.FC = () => {
 
         <div className="mt-4 md:mt-0 flex items-center gap-4">
           <div className="flex items-center space-x-2">
-            <Label
+            {/* <Label
               htmlFor="organization-data"
               className="text-sm font-medium text-gray-700 dark:text-gray-300"
             >
               기관 정보 반영
-            </Label>
-            <Switch
+            </Label> */}
+            {/* <Switch
               id="organization-data"
               checked={applyOrganizationData}
               onCheckedChange={setApplyOrganizationData}
-            />
+            /> */}
           </div>
 
           <Button

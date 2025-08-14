@@ -47,17 +47,17 @@ const PresetsBar: React.FC = () => {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <Label
+          {/* <Label
             htmlFor="apply-organization-data"
             className="text-sm text-gray-600 dark:text-gray-300"
           >
             기관 정보 반영
-          </Label>
-          <Switch
+          </Label> */}
+          {/* <Switch
             id="apply-organization-data"
             checked={applyOrganizationData}
             onCheckedChange={setApplyOrganizationData}
-          />
+          /> */}
         </div>
       </div>
     </div>
